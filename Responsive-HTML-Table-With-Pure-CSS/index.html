@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Record Table</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <main class="table" id="customers_table">
+        <section class="table__header">
+            <h1>NGO | Record_Name</h1>
+            <div class="input-group">
+                <input type="search" placeholder="Search Data...">
+                <img src="images/search.png" alt="">
+            </div>
+            <div class="export__file">
+                <label for="export-file" class="export__file-btn" title="Export File"></label>
+                <input type="checkbox" id="export-file">
+                <div class="export__file-options">
+                    <label>Export As &nbsp; &#10140;</label>
+                   
+                    <label for="export-file" id="toCSV">CSV <img src="images/csv.png" alt=""></label>
+                   
+                </div>
+            </div>
+        </section>
+        <section class="table__body">
+            <table>
+                <thead>
+                    <tr>
+                        <th> Id <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Customer <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Location <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Order Date <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Details <span class="icon-arrow">&UpArrow;</span></th>
+                       
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> 1 </td>
+                        <td>Sam</td>
+                        <td> Pune </td>
+                        <td> 17 Dec, 2022 </td>
+                        <td>
+                            <p class="status delivered"><a href="">View</a></p>
+                        </td>
+                       
+                    </tr>
+                    <tr>
+                        <td> 2 </td>
+                        <td>Yash</td>
+                        <td> Pune </td>
+                        <td> 17 Oct, 2022 </td>
+                        <td>
+                            <p class="status delivered"><a href="">View</a></p>
+                        </td>
+                       
+                    </tr>
+                    <tr>
+                        <td> 3 </td>
+                        <td>Aniket</td>
+                        <td> Pune </td>
+                        <td> 15 Nov, 2022 </td>
+                        <td>
+                            <p class="status delivered"><a href="">View</a></p>
+                        </td>
+                       
+                    </tr>
+                    <tr>
+                        <td> 4 </td>
+                        <td>Santosh</td>
+                        <td> Pune </td>
+                        <td> 20 Dec, 2022 </td>
+                        <td>
+                            <p class="status delivered"><a href="">View</a></p>
+                        </td>
+                       
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
